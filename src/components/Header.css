@@ -1,0 +1,24 @@
+.h2class{
+    font-family: 'Mukta', sans-serif;
+    font-size: medium;
+    text-align:center;
+    color: rgb(226, 226, 226);
+    margin-top: 6px;
+}
+
+.colHeader{
+    padding-top: 12px;
+    padding-right: 0; 
+    padding-left: 0;  
+}
+
+#duh{
+    height: 4px;
+    background-color:#fff;
+}
+#duhtext{
+    color: white;
+}
+.header{
+    background-color: #8b5e83;  
+}

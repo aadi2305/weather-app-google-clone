@@ -1,0 +1,96 @@
+.upperPart{
+    background-color: #5eeded;
+    height: 600px;
+    padding: 10%;
+}
+#degreeCelcius{
+    font-size: 60%;
+
+}
+
+#temperature{
+    margin-top: 19%;
+    color: white;
+    font-size: 280%;
+}
+#date{
+    margin-bottom: 0;
+    color: white;
+    font-size: 18px;
+}
+#weatherImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    width: 75%;
+    height: auto;
+}
+
+#description{
+    margin-bottom: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+#tomorrowDescription{
+    margin-top: 19%;
+    color: white;
+    font-size: 180%;
+}
+/* scroller */
+
+.scroller{ 
+    max-height: 11000px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    overflow-y:hidden;
+    overflow-x:auto;
+
+}
+
+.scroller::-webkit-scrollbar{
+    width: 0;
+}
+
+.scroller .item{
+    min-width: 110px;
+    line-height: 50px;
+    text-align: center;
+
+
+}
+
+#verticleLine{
+    margin-left: 50%;
+
+
+}
+
+#scrollerItem{
+    position: absolute;
+    bottom: 0;
+}
+#scrollerItem p{
+    color: white;
+    margin: 0;
+}
+#scrollerItem img{
+    height: auto;
+    width: 120%;
+}
+.bottom-part{
+    padding: 10%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+
+.bottom-part p{
+    margin-bottom: 0;
+}
+
+.bottom-part h4{
+    margin-bottom: 30px;
+}

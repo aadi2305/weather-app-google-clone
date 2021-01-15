@@ -1,0 +1,12 @@
+.form-control{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+.inputAndSearchDiv{
+    display: flex;
+}
+#stateName{
+    color:rgb(168, 168, 168);
+}
