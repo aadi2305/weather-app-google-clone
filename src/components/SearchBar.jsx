@@ -29,18 +29,19 @@ const submitHandler = (e)=>{
         <div className="row">
             <div className="dropdown">
                     <div className="form-group has-feedback row">
-                        
+            
                         <form onSubmit = {submitHandler} className="inputAndSearchDiv">
                             <input type="text" className="form-control asdf dropdown-toggle" onKeyUp = {triggered} name = "inputValue" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton"  autoComplete = "off" name="search" id="search" placeholder="Search places" />
                             <button type="submit" className ="btn" onClick = {clicked}><i className="fa fa-search form-control-feedback"></i></button> 
-                        </form>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             {
                                 suggetions.slice(0,5).map((item)=>(
                                     <a href = {window.location.href+"/"+item.city}><li className="dropdown-item">{item.city + ", " + item.state + ", India" }</li></a>
                                 ))
                             }
-                        </ul>
+                            </ul>
+                        </form>
+                        
                     </div>
             </div>
         </div>
